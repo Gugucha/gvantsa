@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<title>Student Day Off-s!</title>
+<html lang="ge">
+<head>
+    <title>StudentDayOffs</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style> 
+        .content-table {
+            border-collapse: collapse;
+            margin: 5px 0;
+            font-size: 1.5em;
+            min-width: 600px;
+            border-radius: 5px 0 0;
+            overflow: hidden;
+
+        }
+        .content-table thead tr {
+            background-color: dimgrey ;
+            color:rgb(252, 213, 73);
+            font-weight: bold;
+        }
+        .content-table th,
+        .content-table td{
+            padding: 30px 10px;
+            padding-left: 80px;
+            padding-right: 10px;
+            padding-bottom: 5px;
+        }
+        .content-table tbody tr {
+            border-bottom: 2px solid #9b9898;
+        }
+        .content-table tbody tr:nth-of-type(even) { 
+            background-color: #fad969
+        }
+        .content-table tbody tr:last-of-type {
+            border-bottom: 2px solid black;
+        }
+    </style>
+   
+</head>
+<body> 
+    
+    <h1> სტუდენტური Day Off-ები:
+     რა? სად? როდის?
+  </h1>
+    <table class="content-table">
+        <thead>
+            <tr> 
+                <th> </th>
+                <th>უნივერსიტეტი</th>
+                <th>ქულა</th>
+                <th>ადგილი</th>
+                
+            </tr>
+        </thead>
+
+
+        <body>
+            <tr>
+                <div class="table_header">
+          <tr>
+            <style>
+                img {
+                    width: 60px;
+                    height: 60px;
+                }
+            </style>
+        <td> <img src="robakidze.jpg" style="size: 1px"> </td>
+            <td>1.გრიგოლ რობაქიძის სახელობის უნივერსიტეტი   </td>
+            <td><input type="text" name="place"></td>
+            <td><input type="text" name="place"></td>
+            </tr>
+        </body>
+                </div>
+            <tr class="active-row">
+                <td> <img src="shavizgva.jpg" style="size: 1px">
+                <td>2. შავი ზღვის საერთაშორისო უნივერსიტეტი</td>
+                <td><input type="text" name="place"></td>
+                <td><input type="text" name="place"></td>
+            </tr>
+            <tr> 
+                <td> <img src="soxumi.jpg" alt=""></td>
+                <td>3. სოხუმის სახელმწიფო უნივერსიტეტი    </td>
+                <td><input type="text" name="place"></td>
+                  <td><input type="text" name="place"></td>
+            </tr> 
+            <tr> 
+                <td> <img src="tavartkiladze.jpg"></td>
+                <td>4. გურამ თავართქილაძის სახელობის უნივერსიტეტი     </td>
+                <td><input type="text" name="place"></td>
+                <td><input type="text" name="place"></td>
+            
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
